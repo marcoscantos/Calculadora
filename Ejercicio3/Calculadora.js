@@ -1,9 +1,13 @@
-function sumar(a, b) {
+function suma(a, b) {
     return a + b;
 }
 
-function restar(a, b) {
+function resta(a, b) {
     return a - b;
 }
 
-console.log("resultado de la resta: ", restar(5, 3));
+function multiplicacion(a, b) {
+    return a * b;
+}
+
+console.log("resultado de la multiplicación: ", multiplicar(2, 3));
