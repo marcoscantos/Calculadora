@@ -1,8 +1,12 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     function sumar(a, b) {
+        if (typeof a !== 'number' || typeof b !== 'number') {
+            return 'Ambos parámetros deben ser números';
+        }
         return a + b;
     }
+    
 
     function restar(a, b) {
         return a - b;
