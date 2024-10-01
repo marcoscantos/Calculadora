@@ -36,6 +36,7 @@
             background-color: #ffffff; 
             color: rgb(0, 0, 0);
             border:hsl(from color h s l);
+            border: 1px solid #000;
             border-radius: 5px;
         }
 
@@ -52,7 +53,11 @@
 <body>
 
     <div class="calculadora-container">
+
         <h1>Calculadora</h1> <br>
+
+        <h1>Calculadora</h1>
+
         <input type="number" id="num1" placeholder="Número 1">
         <input type="number" id="num2" placeholder="Número 2">
 
@@ -61,6 +66,7 @@
         <button onclick="realizarOperacion('suma')">Sumar</button>
         <button onclick="realizarOperacion('resta')">Restar</button>
         <button onclick="realizarOperacion('multiplicacion')">Multiplicar</button>
+        <button onclick="realizarOperacion('dividir')">Dividir</button>
 
         <div id="resultado"></div>
     </div>
